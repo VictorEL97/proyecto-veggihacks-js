@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleall.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+    <title>VEGGIHACKS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pavanam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>VEGGIHACKS</h4>
+        </div>
+        <ul class="nav-links">
+            <li id="first"><a href="Proyecto Final.html">Inicio</a></li>
+            <li id="second"><a href="Ingredientes.html">Ingredientes</a>
+                <ul class="submenu">
+                    <li><a href="Ingredientes.html#articulopatata">Patata</a></li>
+                    <li><a href="Ingredientes.html#articulocalabacin">Calabacin</a></li>
+                    <li><a href="Ingredientes.html#articuloberenjena">Berenjena</a></li>
+                    <li><a href="Ingredientes.html#articulopimiento">Pimiento</a></li>
+                    <li><a href="Ingredientes.html#articulofruta">Fruta</a></li>
+                </ul>
+            </li>
+            <li id="third"><a href="Recetas.html">Recetas</a></li>
+            <li id="fourth"><a href="Encuesta.html">Sobre_nosotr@s</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    
+
+    <div class="ing" id="verduras">
+        <p id="p1">Verduras</p>
+    </div>
+        <input class="input1" type="checkbox" id="calabacin" name="verdura1" value="Calabacin">
+        <label id="calabacin2" class="label1" for="verdura1">Calabacín</label>
+        <input class="input2" type="checkbox" id="pimiento" name="verdura2" value="Pimiento">
+        <label id="pimiento2" class="label2" for="verdura2">Pimiento</label>
+        <input class="input3" type="checkbox" id="brocoli" name="verdura3" value="Brocoli">
+        <label id="brocoli2" class="label3" for="verdura3">Brocoli</label>
+        <input class="input4" type="checkbox" id="acelgas" name="verdura4" value="Acelgas">
+        <label id="acelgas2" class="label4" for="verdura4">Acelgas</label>
+    
+
+    <div class="ing" id="tuberculos">
+        <p id="p2">Tubérculos</p>
+    </div>
+        <input class="input1" type="checkbox" id="patata" name="tuberculo1" value="Patata">
+        <label id="patata2" class="label1" for="tuberculo1">Patata</label>
+        <input class="input2" type="checkbox" id="zanahoria" name="tuberculo2" value="Zanahoria">
+        <label id="zanahoria2" class="label2" for="tuberculo2">Zanahoria</label>
+        <input class="input3" type="checkbox" id="remolacha" name="tuberculo3" value="Remolacha">
+        <label id="remolacha2" class="label3" for="tuberculo3">Remolacha</label>
+        <input class="input4" type="checkbox" id="apio" name="tuberculo4" value="Apio">
+        <label id="apio2" class="label4" for="tuberculo4">Apio</label>
+    
+
+    <div class="ing" id="frutas">
+        <p id="p3">Frutas</p>
+    </div>
+        <input class="input1" type="checkbox" id="manzana" name="fruta1" value="Manzana">
+        <label id="manzana2" class="label1" for="fruta1">Manzana</label>
+        <input class="input2" type="checkbox" id="platano" name="fruta2" value="Platano">
+        <label id="platano2" class="label2" for="fruta2">Platano</label>
+        <input class="input3" type="checkbox" id="fresa" name="fruta3" value="Fresa">
+        <label id="fresa2" class="label3" for="fruta3">Fresa</label>
+        <input class="input4" type="checkbox" id="coco" name="fruta4" value="Coco">
+        <label id="coco2" class="label4" for="fruta4">Coco</label>
+    
+
+    <div class="ing" id="postres">
+        <p id="p4">Postres</p>
+    </div>
+        <input class="input1" type="checkbox" id="chocolate" name="postre1" value="Chocolate">
+        <label id="chocolate2" class="label1" for="postre1">Chocolate</label>
+        <input class="input2" type="checkbox" id="nata" name="postre2" value="Nata">
+        <label id="nata2" class="label2" for="postre2">Nata</label>
+        <input class="input3" type="checkbox" id="helado" name="postre3" value="Helado">
+        <label id="helado2" class="label3" for="postre3">Helado</label>
+        <input class="input4" type="checkbox" id="vainilla" name="postre4" value="Vainilla">
+        <label id="vainilla2" class="label4" for="postre4">Vainilla</label>
+    
+    <div class="ing" id="otros">
+        <p id="p5">Otros</p>
+    </div>
+        <input class="input1" type="checkbox" id="seitan" name="otros1" value="Seitan">
+        <label id="seitan2" class="label1" for="otros1">Seitan</label>
+        <input class="input2" type="checkbox" id="tofu" name="otros2" value="Tofu">
+        <label id="tofu2" class="label2" for="otros2">Tofu</label>
+        <input class="input3" type="checkbox" id="tahini" name="otros3" value="Tahini">
+        <label id="tahini2" class="label3" for="otros3">Tahini</label>
+        <input class="input4" type="checkbox" id="algas" name="otros4" value="Algas">
+        <label id="algas2" class="label4" for="otros4">Algas</label>
+    
+
+    <input type="button" id="buscar" value="BUSCAR" onclick="buscarRecetas()">
+
+    <aside> 
+		<div id="menu">
+		<ul>
+			<li id="indice"><h3>Índice</h3></li>
+			<li><a id="a1" href="#articulopatata"><strong>Ir al artículo sobre la patata</strong> </a></li>
+			<li><a id="a2" href="#articulocalabacin"><strong>Ir al artículo sobre el calabacín</strong> </a></li>
+			<li><a id="a3" href="#articuloberenjena"><strong>Ir al artículo sobre la berenjena</strong> </a></li>
+			<li><a id="a4" href="#articulopimiento"><strong>Ir al artículo sobre el pimiento</strong> </a></li>
+			<li><a id="a5" href="#articulofruta"><strong>Ir al artículo sobre las frutas</strong> </a></li>
+		</ul>
+		</div>
+		<section>
+				<h1>BENEFICIOS DE LAS VERDURAS Y FRUTAS</h1>
+				<article id="articulopatata">
+			<p id="textopatata"> 
+		<h2>La Patata</h2>
+		<h3>Descubre los beneficios que aporta incluir las patatas a tu dieta</h3>
+La patata es actualmente uno de los alimentos más consumidos en el mundo, por su precio asequible, por su alto valor alimenticio y por las múltiples posibilidades que ofrece en combinaciones gastronómicas.
+
+Las patatas se pueden consumir fritas, hervidas y asadas. Forman parte de platos tan diversos como purés, tortillas, ensaladas, rellenos y para complementar cualquier otro alimento.
+
+Además de su exquisito sabor, la patata presenta propiedades nutricionales que la convierten en un alimento imprescindible en cualquier hogar. Entre algunas de las propiedades nutricionales de la patata hay que destacar:
+
+Rica en vitaminas
+
+Aporta más vitamina C que otros alimentos que contienen almidón, con lo que previene el escorbuto. Además, tiene vitamina B que es necesaria para el metabolismo, el sistema nervioso central y la formación de los glóbulos rojos.
+
+Debido a sus cualidades nutricionales, el consumo de patata puede contribuir a la reducción del estrés, a dormir mejor y a un mejor funcionamiento del cerebro.
+<h3>Rica en vitaminas</h3>
+Aporta más vitamina C que otros alimentos que contienen almidón, con lo que previene el escorbuto. Además, tiene vitamina B que es necesaria para el metabolismo, el sistema nervioso central y la formación de los glóbulos rojos.
+
+Debido a sus cualidades nutricionales, el consumo de patata puede contribuir a la reducción del estrés, a dormir mejor y a un mejor funcionamiento del cerebro.
+
+
+
+<h3>Fuente de hidratos de carbono</h3>
+
+Los carbohidratos —como los azúcares o el almidón— aportan energía al cuerpo, en particular al sistema nervioso y al cerebro. La falta de hidratos de carbono en la alimentación conduce a tomar demasiadas grasas buscando la energía necesaria, lo que contribuye a la obesidad.
+
+<h3>Contiene fibra</h3> 
+
+La fibra es muy importante para que el cuerpo pueda hacer la digestión correctamente. Se encuentra solo en alimentos de origen vegetal y, aunque no es un nutriente directo, es muy útil para el organismo al evitar el estreñimiento. También es necesaria para provocar una sensación en el estómago de estar lleno, con lo que ayuda a controlar el peso al alejar las ganas de comer durante más tiempo que otros alimentos.
+
+<h3>Contiene minerales</h3> 
+
+La patata es rica en potasio y también aporta al organismo minerales como el hierro, el magnesio, el fósforo o el zinc.
+
+El potasio es un mineral imprescindible para el cuerpo, ayudando al correcto funcionamiento de los músculos. Por esto es tan importante consumirlo en la cantidad necesaria, y más cuando se trata de personas que realizan ejercicio físico a menudo.
+
+Aunque las patatas fritas son una delicia y debemos permitírnoslas de vez en cuando, la mejor forma de consumirlas es hirviéndolas, evitando el freírlas porque esto provoca pérdidas en sus propiedades nutricionales y aportan un extra de grasa que no contribuye a la salud del cuerpo. En Ictiva.com se puede aprender todo sobre una alimentación correcta mediante planes de entrenamiento con dietas.<br><br>
+</p>
+	<div id="cajavideo1"> 
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/CpmIuWAalmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+			</article>
+			<article id="articulocalabacin">
+				<h2>El calabacín</h2>
+	<h3>Controlar el colesterol</h3> 
+El consumo de calabacín en nuestra dieta nos ayudará a bajar el nivel de colesterol en nuestro sistema, pues muchos estudios han puesto sobre la mesa que la fibra dietética que contiene el calabacín colabora para reducir los niveles de colesterol. Así, sus altos niveles de vitaminas A y C también contribuyen a la disminución del riesgo de la aterosclerosis.
+
+<h3>Salud ocular</h3> 
+
+Uno de los mejores beneficios para la salud del calabacín es el fortalecimiento de nuestros ojos (gracias a la luteína y la zeaxantina). Según muchos informes, estos fitonutrientes tienen un impacto significativamente positivo en la vista. Garantizan que nuestros ojos están a salvo de los efectos peligrosos de los rayos solares y previenen la degeneración macular asociada a la edad.
+<h3>Pérdida de peso</h3> 
+
+El calabacín es eficaz para el control de peso debido a su saludable combinación de alto contenido en fibra y agua y un bajo contenido de calorías. Todo ello lo convierten en un alimento de baja energía y muy apto para las dietas de control de peso. Además, gracias a su alto contenido en agua y fibra nos sacia antes, ayudándonos a controlar el apetito con muy pocas calorías. Como curiosidad, el calabacín tiene casi la mitad de calorías que la misma cantidad de coles de Bruselas o de brócoli.
+
+<h3>Controlar la presión arterial</h3> 
+
+Los calabacines son una ayuda estupenda para nuestro organismo de cara a reducir los niveles de presión arterial. El potasio y el magnesio de esta verde hortaliza benefician a aquellos que sufren de hipertensión hipertensión o presión arterial alta, por lo que debemos tomar buena nota de que no nos falte como complemento a nuestras comidas diarias.
+
+<h3>Calabacín contra el envejecimiento</h3> 
+
+El calabacín es una potente fuente de vitaminas A y C, poderosos antioxidantes que nos ayudan a mantener una piel sana y a luchar contra los radicales libres dañinos. Los radicales libres son responsables de causar el envejecimiento de la piel, provocando la aparición de manchas y arrugas. Así que para prevenir los síntomas del envejecimiento, nada como el calabacín.
+
+<h3>Para los hombres cis o mujeres trans</h3> 
+
+Diversos estudios publicados por el National Institute of Diabetes and Digestive and Kidney Diseases, han confirmado los beneficios del calabacín en el tratamiento de la hipertrofia o hiperplasia prostática benigna (HBP) en los hombres. La hiperplasia prostática benigna ocurre cuando la glándula que rodea la uretra se agranda, dificultando muchas actividades urinarias y sexuales. Le sucede a casi todos los hombres conforme van envejeciendo. No aumenta el riesgo de cáncer de próstata.
+
+<h3>Es bueno para el corazón</h3> 
+
+El calabacín tiene una gran cantidad de potasio: 295 miligramos por taza. Según la American Heart Association, el potasio disminuye los efectos nocivos de la sal en su cuerpo. Muchos estudios sugieren que aumentar la ingesta de potasio (y reducir la de sodio) puede disminuir el riesgo de accidente cerebrovascular y las probabilidades de desarrollar enfermedad cardíaca. Como el calabacín también tiene altos niveles de vitamina C antioxidante, coopera para que el revestimiento de los glóbulos funcionen mejor, reduciendo la presión arterial y protegiendo contra las arterias obstruidas.
+
+<h3>El calabacín previene la gota</h3> 
+
+La gota se produce por exceso de ácido úrico en el organismo. El calabacín es una gran fuente de ácidos grasos Omega-3 y carotenoides con propiedades anti-inflamatorias que pueden contrarrestar los efectos del exceso de ácido úrico. Además, sus vitaminas antioxidantes A y C previenen el desarrollo de muchos trastornos hiper-inflamatorias como el asma, la osteoartritis y la artritis reumatoide.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XrIFjpLSDGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</article>
+		<article id="articuloberenjena">
+
+<h2>La berenjena</h2>
+
+<h3>Introducción</h3>
+
+La berenjena es un alimento delicioso y saludable. Entre los múltiples beneficios de la berenjena, se destaca su poder desintoxicante, es decir que favorece la eliminación de sustancias indeseables del organismo.
+Otro de los beneficios de la berenjena para la salud es ayudar en el control de la presión arterial. Además, es un alimento que favorece la digestión.
+
+<h3>Propiedades de la berenjena</h3>
+Morada, de piel brillante y textura firme, la berenjena es una de las hortalizas más versátiles y ricas a la que podemos recurrir. Aunque la conocemos gracias a los árabes (de quienes conservamos recetas como las berenjenas fritas con miel), la berenjena es originaria de India, donde existen múltiples variedades y es un alimento muy consumido.
+
+La berenjena es un alimento libre de pecado: el 92% de su peso es agua, por lo que tampoco es una gran fuente de vitaminas (B9 y C) y minerales (hierro y potasio), aunque es destacable su aportación en fibra, subrayan los nutricionistas. Es un buen antioxidante (sobre todo si nos la comemos con piel, bien limpia) y “ciertos estudios han indicado que algunos flavonoides presentes en la berenjena pueden ayudar a disminuir los niveles de colesterol”, indica la Fundación Española de la Nutrición.<br>
+
+<h3>Es un buen antioxidante (sobre todo si nos la comemos con piel, bien limpia)</h3> 
+También recuerda que “se ha detectado que la berenjena contiene cierta cantidad de un alcaloide tóxico llamado solanina, que aparece mucho más en las partes verdes de la planta y en los frutos poco maduros. Esta sustancia puede provocar migrañas y malestar estomacal. La solanina desaparece con el calor, de modo que una berenjena madura bien preparada y cocinada no supone el más mínimo riesgo”.
+
+Las personas con propensión a desarrollar cálculos renales deben ser prudentes con la berenjena. La hortaliza contiene oxalato, el cristal responsable de la mayoría de cálculos, advierten en Drugs.com.
+
+<h3>Otras propiedades</h3>
+
+Es baja en calorías y casi libre de grasa. Una taza de berenjenas contiene apenas 38 calorías. Por lo tanto, es apta para dietas adelgazantes.<br>
+Tiene un alto contenido en calcio, fósforo y hierro. Por esto, se recomienda para quienes sufren anemia u osteoporosis.<br>
+Es rica en flavonoides, pigmentos conocidos por brindar protección a las células frente a agentes nocivos.<br>
+Contiene terpenos que ayudan a reducir el colesterol.<br>
+Reduce el nivel de glucosa en sangre, lo que favorece a personas diabéticas.<br>
+Produce efectos levemente diuréticos por su alto contenido en potasio.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lRqvPuO54kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			<article id="articulopimiento">
+<h2>El pimiento</h2>
+<h3>UNA DE LAS MEJORES FUENTES DE VITAMINA C</h3>
+100 g de pimiento rojo fresco aportan nada más y nada menos que190 mg de vitamina C, más del triple que las naranjas.<br>
+
+El pimiento fue precisamente el alimento a partir del cual el químico húngaro Albert Szent-Györgyi sintetizó esa vitamina en el año 1928, lo cual le valdría el Premio Nobel de Medicina y Fisiología una década más tarde.
+
+También destacan en betacaroteno, precursor de la vitamina A, y otra vitamina liposoluble y antioxidante que suele escasear en los vegetales bajos en grasas: la vitamina E.
+
+Este cóctel antioxidante y protector viene acompañado de vitamina B6, ácido fólico, flavonoides, ácidos orgánicos y salicilatos de efecto antiinflamatorio. 
+Todo ello contribuye a proteger la vista, el aparato digestivo y la salud cardiovascular; favorece la diuresis y la eliminación de toxinas, y refuerza las defensas antioxidantes del organismo.
+
+Los pimientos se recomiendan en dietas de adelgazamiento.
+<h3>SON MUY DIGESTIVOS</h3>
+La fibra evita el estreñimiento, previene el cáncer de colon y contribuye a controlar las tasas de colesterol y de azúcar en sangre. 
+<h3>PICANTE AFRODISIACO, ANTIBIÓTICO Y ANALGÉSICO</h3>
+El elemento más característico de la composición de los pimientos, en las variedades picantes, no es un nutriente sino un alcaloide, el 8-metil-N-vanillil-6-nonenamida, que es la denominación química exacta de la capsaicina, responsable de la sensación de quemazón en la boca.
+
+La capsaicina es, en primer lugar, un antibiótico natural bastante eficaz. Por eso los alimentos preparados con guindillas se conservan mejor.<br>
+
+En segundo lugar, tiene efecto analgésico. Al parecer reduce la disponibilidad del mensajero químico del dolor –denominado substancia P– de forma tan eficaz que se utiliza en tratamientos postoperatorios y en casos de artritis.
+
+Al contrario de lo que se pensaba hasta hace poco, el pimiento picante no resulta perjudicial para personas con problemas de estómago en general: en cantidad moderada favorece la digestión, pues estimula la mucosidad estomacal y la función de la vesícula biliar. <br>
+
+Por si fuera poco, también es afrodisiaco. Así lo consideraban los aztecas, por sus formas, colores y el calor interno que producen.
+
+Ahora se sabe que en dosis adecuadas, una vez superado el dolor, el picante induce la producción de endorfinas en el cerebro, relacionadas con la sensación de bienestar.
+
+Activa además la circulación sanguínea, estimula el tracto génito-urinario y mejora la fertilidad.
+<h3>PROBLEMAS DE LA PIEL</h3>
+Se usa también como ingrediente de bálsamos para pieles irritadas por psoriasis o herpes.
+
+Por razones que todavía no son bien conocidas, las personas alérgicas al látex o a frutos tropicales como la banana o el kiwi también pueden serlo al pimiento.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9-EXz9n_iTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			<article id="articulofruta">
+<h2>La fruta</h2>
+<h3>Propiedades características de cada fruta</h3>
+Al contrario que con las verduras, en este apartado especificaremos con brevedad en cada una de las frutas que trataremos.<br>
+Las frutas poseen una gran cantidad de vitaminas y propiedades que contribuyen al mejor funcionamiento del organismo y solucionan uno que otro problema de salud. Estas son algunas de sus propiedades más conocidas.<br>
+<strong>Naranja:</strong>  tiene un alto contenido de vitamina C y cuenta con propiedades diuréticas, además de fibra, calcio, fósforo, magnesio y zinc.<br>
+
+<strong>Manzanas:</strong>  contiene fibra, vitamina C, E, B y potasio. Son un 85% de agua y sirve para combatir la ansiedad, como dentífrico natural, disminuye el colesterol y ayuda con problemas de cicatrización.<br>
+
+Es necesario no quitarle la cáscara con el fin de aprovechar todos sus beneficios.<br>
+
+<strong>Mandarina:</strong> tiene vitamina C, fibra, fósforo y calcio. Es también antioxidante.<br>
+
+<strong>Arandano:</strong> Rico en vitamina C, potasio, hierro, proteínas y bajo en calorías. Un gran y delicioso antioxidante.<br>
+
+<strong>Kiwi:</strong> es una fruta rica en vitaminas y minerales. Posee principalmente hierro, calcio, fósforo, ácido fólico y magnesio. Regula el tránsito lento mediante el consumo de sus semillas.<br>
+
+<strong>Pera:</strong> su contenido de agua es elevado por lo que es ideal para las personas con exceso de peso y obesidad. También es recomendada para quienes tienen problemas de diabetes, hipertensión, colon irritable o afecciones cardiovasculares.
+
+Además contiene hierro, calcio, potasio, yodo, y vitamina C y E.<br>
+
+<strong>Arándanos, moras y frambuesas:</strong> contienen hierro y vitamina C.<br>
+
+<strong>Piña:</strong> aporta fibra, vitamina A, agua y un reducido nivel calórico, lo que la convierte en una alternativa perfecta para quienes quieren bajar de peso. Además de magnesio, hierro, manganeso, potasio y cobre.
+
+Pero si usted sufre de gastritis no la incluya dentro de su dieta porque puede llegar a producirle mayor sensación gástrica.<br>
+
+<strong>Plátano:</strong> tiene magnesio, zinc y vitamina A y C, potasio y fibra. Pero no es recomendable para las personas que sufren de diabetes pues tiene un alto contenido en azúcares.
+
+Puede llegar a funcionar como laxante en personas con digestión sensible.<br>
+
+<strong>Sandia:</strong> ideal para los problemas urinarios y renales. Tiene un alto contenido de agua y es ideal para eliminar toxinas.<br>
+
+<strong>Uva:</strong> Es antioxidante y por lo tanto ayuda a combatir los radicales libres, causantes del envejecimiento. Activa la producción de colágeno y elastina, y es diurético.
+
+Es gran fuente de azúcares y minerales, y posee un alto contenido de fibra, hierro y sodio.<br>
+
+<strong>Melón:</strong> Tiene un 90% de agua y es muy bajo en calorías. Es un excelente antioxidante y laxante.<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ICM0Z_nUV3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</article>
+		</section> 
+    </aside>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+    <script src="recetas.js"></script>
+    <script src="javascriptall.js"></script>
+    <script src="javascript1.js"></script>
+</body>
+</html>
